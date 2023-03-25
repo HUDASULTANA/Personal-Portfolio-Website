@@ -1,0 +1,16 @@
+game
+poem
+study
+msp101-lec+lab
+msp100-lec+lab
+cmp-lec+lab
+cml-physical
+apl
+mtl-lin algebra
+
+mon mcp100
+thurs-cmp
+fri-mcp101
+
+sunday+wed+thurs=2hrs lab
+3-ds

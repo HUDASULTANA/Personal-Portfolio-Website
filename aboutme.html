@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>aboutme</title>
+</head>
+<body>
+    <header>
+       
+        <img src="logo.png" class="logo"> 
+        
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="contactme.html">CONTACT ME</a></li>
+            <li><a href="project.html">PROJECTS</a></li>
+            <li><a href="#">BLOGS
+            </a></li>
+        </ul>
+    </header>
+       <section>
+        <img src="moon (1).png" id="moon">
+        <img src="mountains_behind.png" id="mob">
+        <h2 id="text">Ambitious</h2>
+        <img src="bg2.png" id="mof">
+        <img src="stars.png" id="stars">
+    
+</section>
+    <div class="sec">
+        <img src="p1.jpg" class="p1"><h2 class="edu">EDUCATION</h2>
+    <p>MECHANICAL ENGINEERING 2ND SEMESTER IIT ROORKEE,ROORKEE</p>
+    <img src="p2.jpg" class="p2">
+    <h2 classs="hai">HOBBIES AND INTEREST</h2>
+<P>DESINGING,PAINTAING,DRAMATICS,WRITING AND LOVE TO EXPLORE NEW THINGS</P>
+   <script> 
+        let stars = document.getElementById('stars');
+        let moon = document.getElementById('moon');
+        let mob = document.getElementById('mob');
+        let text= document.getElementById('text');
+        let mof = document.getElementById('mof');
+
+
+    window.addEventListener('scroll',function(){
+        let value = window.scrollY;
+        stars.style.left = value* 0.25 + 'px';
+        moon.style.top= value* 1.05 + 'px';
+        mob.style.top = value* 0.5 + 'px';
+        mof.style.top = value* 0 + 'px';
+        text.style.marginRight = value* 4 + 'px';
+        text.style.margintop = value* 10+ 'px';
+    })
+    </script>
+</body>
+</html>
